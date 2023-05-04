@@ -1,0 +1,25 @@
+ .header {
+   background-color: #808080;
+   height: 100px;
+ } 
+
+#img{
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+};
+
+a{}
+
+a.txt{
+  text-decoration: none;
+  font-size: 25px;
+  color: #FFFFFF;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  position: absolute;
+  left: 90%;
+  top: 30px;
+};
+
