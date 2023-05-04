@@ -5,7 +5,6 @@ let table = {
   sym: ["!","$","%","&","/","(",")","=","'","¡","?","¿","ç","-",".",",",";",":","_","*","^"," "]
 };
 
-console.log(table)
 
 const cesarCrypt = (term,n) =>{
   let word = "";
@@ -19,7 +18,7 @@ const cesarCrypt = (term,n) =>{
       if (table.let.low[tmp+n] == undefined) {
         
         tmp = n - (27-tmp);
-        console.log()
+
         word = word + table.let.low[tmp];
       
       }else{
